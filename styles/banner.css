@@ -28,7 +28,7 @@
   font-weight: 400;
   line-height: 1.2em;
 }
-@media (widht>=1200px) {
+@media screen and (max-width: 1200px) {
   .banner {
     height: 30vh;
     padding-left: 10vw;
@@ -43,7 +43,7 @@
   }
 }
 
-@media (widht <=730px) {
+@media screen and (max-width: 730px) {
   .banner {
     height: 50vh;
     padding-left: 5vw;
